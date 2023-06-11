@@ -1,0 +1,39 @@
+html {
+    background-color: #e7fffe;
+}
+
+p {
+    color:blue;
+}
+
+h2 {
+    color: rgb(195, 186, 61);
+}
+
+a {
+    color: rgb(145, 147, 145);
+}
+
+.block {
+    width: 260px;
+    background-color: rgb(241, 237, 181);
+    border: 2px solid rgb(128, 119, 119);
+    padding: 20px 10px 20px 30px;
+    /*margin: 30px 20px 10px 50px;*/
+}
+
+img { 
+    display:block;
+    margin: 0 auto;
+}
+
+.polaroid {
+    position: relative;
+}
+
+.polaroid img {
+    -webkit-box-shadow: 3px 3px 6px 4px #888;
+    -moz-box-shadow: 3px 3px 6px 4px #888;
+    box-shadow: 3px 3px 6px 4px #888;
+    margin: 0 0;
+}
